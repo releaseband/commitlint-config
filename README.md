@@ -7,7 +7,7 @@ echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
 ```
 
 ```
-npm i -D @releaseband/commitlint-config
+npm i @releaseband/commitlint-config
 npx install-peerdeps --dev @releaseband/commitlint-config
 ```
 
