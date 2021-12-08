@@ -1,0 +1,27 @@
+{
+  "name": "@releaseband/commitlint-config",
+  "version": "0.1.0",
+  "description": "commitlint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/releaseband/commitlint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/releaseband/commitlint-config/issues"
+  },
+  "homepage": "https://github.com/releaseband/commitlint-config#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/cz-commitlint": "^13.2.1"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@commitlint/cz-commitlint": "^13.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
