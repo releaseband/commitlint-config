@@ -1,6 +1,6 @@
 {
   "name": "@releaseband/commitlint-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "commitlint config",
   "main": "index.js",
   "repository": {
@@ -11,7 +11,7 @@
     "url": "https://github.com/releaseband/commitlint-config/issues"
   },
   "homepage": "https://github.com/releaseband/commitlint-config#readme",
-  "scripts":{
+  "scripts": {
     "prepare": "node ./install.js"
   },
   "devDependencies": {
