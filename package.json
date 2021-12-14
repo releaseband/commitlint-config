@@ -11,15 +11,20 @@
     "url": "https://github.com/releaseband/commitlint-config/issues"
   },
   "homepage": "https://github.com/releaseband/commitlint-config#readme",
+  "scripts":{
+    "prepare": "node ./install.js"
+  },
   "devDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
-    "@commitlint/cz-commitlint": "^13.2.1"
+    "@commitlint/cz-commitlint": "^13.2.1",
+    "commitizen": "^4.2.4"
   },
   "peerDependencies": {
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
-    "@commitlint/cz-commitlint": "^13.2.1"
+    "@commitlint/cz-commitlint": "^13.2.1",
+    "commitizen": "^4.2.4"
   },
   "keywords": [],
   "author": "",
