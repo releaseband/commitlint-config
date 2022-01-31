@@ -1,23 +1,29 @@
-# Installing
+# @releaseband/commitlint-config
 
-create [.npmrc](https://docs.npmjs.com/cli/v7/configuring-npm/npmrc) file in the **root project folder**:
+commitlint shareable config
 
-```
-echo @releaseband:registry=https://npm.pkg.github.com > .npmrc
-```
+## Installing
 
-```
-npm i @releaseband/commitlint-config -D
+```bash
+npm i -D @releaseband/commitlint-config
 npx install-peerdeps --dev @releaseband/commitlint-config
 ```
 
-`commitlint.config.js`:
+create `commitlint.config.js` file in the **root project folder**:
 
 ```js
-module.exports = require("@releaseband/commitlint-config");
+module.exports = require('@releaseband/commitlint-config');
+```
+
+## Installing commit tool
+
+```bash
+npm i -D @commitlint/cz-commitlint commitizen
 ```
 
 `.cz.json`:
+
+create `.cz.json` file in the **root project folder**:
 
 ```js
 {
@@ -25,7 +31,7 @@ module.exports = require("@releaseband/commitlint-config");
 }
 ```
 
-`package.json`:
+add script in `package.json` file:
 
 ```js
 {
@@ -34,4 +40,3 @@ module.exports = require("@releaseband/commitlint-config");
   }
 }
 ```
-

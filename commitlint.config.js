@@ -1,9 +1,1 @@
-module.exports = {
-  extends: ['@commitlint/config-conventional'],
-  parserPreset: {
-    parserOpts: {
-      issuePrefixes: ['MAN-'],
-      issuePrefixesCaseSensitive: true,
-    },
-  },
-};
+module.exports = require('./index.js');
