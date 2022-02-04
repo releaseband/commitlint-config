@@ -50,6 +50,5 @@ npx husky-init && npm install
 add pre-commit hook:
 
 ```bash
-npx husky add .husky/prepare-commit-msg 'exec < /dev/tty && node_modules/.bin/cz --hook || true'
 npx husky add .husky/commit-msg 'npx --no -- commitlint --edit $1'
 ```
