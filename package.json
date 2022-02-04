@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "format": "prettier --write --ignore-path ./.gitignore . && prettier . --write --ignore-unknown --ignore-path ./.gitignore",
+    "prettier": "prettier --write --ignore-path ./.gitignore . && prettier . --write --ignore-unknown --ignore-path ./.gitignore",
     "commit": "cz",
     "lint": "eslint . --ext .js --fix --ignore-path ./.gitignore",
     "prepare": "husky install"
@@ -20,11 +20,11 @@
     "@releaseband/commitlint-config": "^0.2.0",
     "@releaseband/eslint-config": "^0.2.0",
     "@releaseband/lint-staged-config": "^0.2.1",
+    "@releaseband/markdownlint-config": "^1.0.0",
     "@releaseband/prettier-config": "^0.2.0",
     "@releaseband/semantic-release-npm-github-config": "^1.0.0",
     "commitizen": "^4.2.4",
     "eslint": "^8.8.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sonarjs": "^0.11.0",
@@ -53,5 +53,9 @@
   "bugs": {
     "url": "https://github.com/releaseband/commitlint-config/issues"
   },
-  "homepage": "https://github.com/releaseband/commitlint-config#readme"
+  "homepage": "https://github.com/releaseband/commitlint-config#readme",
+  "keywords": [
+    "commitlint",
+    "commitlint-config"
+  ]
 }
