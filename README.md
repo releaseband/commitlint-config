@@ -21,8 +21,6 @@ module.exports = require('@releaseband/commitlint-config');
 npm i -D @commitlint/cz-commitlint commitizen
 ```
 
-`.cz.json`:
-
 create `.cz.json` file in the **root project folder**:
 
 ```js
@@ -39,4 +37,19 @@ add script in `package.json` file:
     "commit": "cz"
   }
 }
+```
+
+## Add commit hook
+
+initialize husky:
+
+```bash
+npx husky-init && npm install
+```
+
+add pre-commit hook:
+
+```bash
+npx husky add .husky/prepare-commit-msg 'exec < /dev/tty && node_modules/.bin/cz --hook || true'
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit $1'
 ```
