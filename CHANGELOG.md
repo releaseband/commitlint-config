@@ -1,3 +1,10 @@
+## [0.3.2](https://github.com/releaseband/commitlint-config/compare/v0.3.1...v0.3.2) (2022-02-04)
+
+
+### Bug Fixes
+
+* edit readme ([e1b5d20](https://github.com/releaseband/commitlint-config/commit/e1b5d20670dccf2976201c4c6cf96229d25aa889))
+
 ## [0.3.1](https://github.com/releaseband/commitlint-config/compare/v0.3.0...v0.3.1) (2022-02-04)
 
 
