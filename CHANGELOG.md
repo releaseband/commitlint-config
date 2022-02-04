@@ -1,3 +1,11 @@
+## [0.3.1](https://github.com/releaseband/commitlint-config/compare/v0.3.0...v0.3.1) (2022-02-04)
+
+
+### Bug Fixes
+
+* remove double command in commit-msg hook ([a90e7bb](https://github.com/releaseband/commitlint-config/commit/a90e7bb37f462dc679e6c80ee9ad9cab6a64d387))
+* remove pre-commit hook ([4a6bbbd](https://github.com/releaseband/commitlint-config/commit/4a6bbbde384f9973121e619f4e672b6c3fb52509))
+
 # [0.3.0](https://github.com/releaseband/commitlint-config/compare/v0.2.0...v0.3.0) (2022-02-04)
 
 
