@@ -1,3 +1,15 @@
+# [0.4.0](https://github.com/releaseband/commitlint-config/compare/v0.3.2...v0.4.0) (2022-02-05)
+
+
+### Bug Fixes
+
+* deleting repeated lines in husky hooks ([6622692](https://github.com/releaseband/commitlint-config/commit/6622692a5ff1411bc9beb34d6383b7a97f51b0bf))
+
+
+### Features
+
+* update tools configs ([707e66a](https://github.com/releaseband/commitlint-config/commit/707e66a74ac58d39349f424ff165009150ca894a))
+
 ## [0.3.2](https://github.com/releaseband/commitlint-config/compare/v0.3.1...v0.3.2) (2022-02-04)
 
 
