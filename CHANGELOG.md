@@ -1,3 +1,10 @@
+# [0.5.0](https://github.com/releaseband/commitlint-config/compare/v0.4.0...v0.5.0) (2022-02-07)
+
+
+### Features
+
+* remove unnecessary tools configs ([c0a23f1](https://github.com/releaseband/commitlint-config/commit/c0a23f1dd1b3bc06327e2d86f6ca8d79953868a6))
+
 # [0.4.0](https://github.com/releaseband/commitlint-config/compare/v0.3.2...v0.4.0) (2022-02-05)
 
 
