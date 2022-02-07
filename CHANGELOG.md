@@ -1,3 +1,15 @@
+# [1.0.0](https://github.com/releaseband/commitlint-config/compare/v0.5.0...v1.0.0) (2022-02-07)
+
+
+### Documentation
+
+* update README ([bfcd1ac](https://github.com/releaseband/commitlint-config/commit/bfcd1ac1518847c4479683e357b770c743ddb9dd))
+
+
+### BREAKING CHANGES
+
+* publish release version
+
 # [0.5.0](https://github.com/releaseband/commitlint-config/compare/v0.4.0...v0.5.0) (2022-02-07)
 
 
