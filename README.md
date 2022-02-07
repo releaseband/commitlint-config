@@ -1,6 +1,6 @@
 # @releaseband/commitlint-config
 
-commitlint shareable config
+[commitlint](https://github.com/conventional-changelog/commitlint) shareable config
 
 ## Installing
 
